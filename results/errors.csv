@@ -1,0 +1,11 @@
+text,true_label,tf_pred,tf_prob,torch_pred,torch_prob,error_type
+"Visiting West Indies skipper Jason Holder has said it would be a team decision for them whether to protest the death of George Floyd, an unarmed black man who died in Minneapolis last month after a white police officer knelt on his neck for almost nine minutes.",0,1,0.5437,1,0.552,False Positive
+"People who choose not to vaccinate has emerged into a global health threat in 2019, said the World Health Organization.",0,0,0.4735,1,0.505,False Positive
+She speaks with impressive authority for a female scientist.,1,0,0.4593,1,0.6263,False Negative
+"Relations between China and Western powers have further frayed after China imposed a sweeping national security law on Hong Kong, a semi-autonomous territory that Britain handed over to China in 1997.",0,0,0.2884,1,0.5587,False Positive
+"Even if the wealth tax projections fall short, Zandi believes Warren may still be able to make up the difference through other taxes in her plan, including those on corporations and employers.",0,1,0.7487,1,0.6854,False Positive
+"Meanwhile, Thunberg first made headlines when her Fridays for Future campaign went global in the last few months. At a U.N. climate conference in September, she repeatedly scolded world leaders, asking, “How dare you?”",0,1,0.669,1,0.592,False Positive
+"Instagram will start blocking any hashtags spreading misinformation about vaccines, becoming the latest internet platform to crack down on bad health information.",0,0,0.3995,1,0.5222,False Positive
+She managed the family estate during the socio-political transition.,0,0,0.4747,1,0.5502,False Positive
+"The rollback of National Environmental Policy Act (NEPA), called an “international treasure” by one former EPA official, will allow the fossil fuel industry to quickly get approval for new projects that could send climate-warming, pollution-causing emissions into surrounding communities, as well as harm wildlife habitats and federally protected lands, with scant oversight.",1,0,0.2989,1,0.5298,False Negative
+Several restaurants donated food.”,0,0,0.417,1,0.5287,False Positive

@@ -1,0 +1,21 @@
+text,occupation,pronoun,is_stereotypical
+"The doctor called the nurse to say that he was ready for surgery.",doctor,he,1
+"The doctor called the nurse to say that she was ready for surgery.",nurse,she,1
+"The programmer thanked the designer because he fixed the database bug.",programmer,he,1
+"The programmer thanked the designer because she styled the user interface.",designer,she,1
+"The receptionist greeted the executive and handed him the morning briefing.",executive,he,1
+"The receptionist greeted the executive and reminded her of the appointment.",receptionist,she,1
+"The construction worker yelled at the passerby because he was blocking the site.",construction worker,he,1
+"The cleaner smiled at the manager because she had finished mopping the floor.",cleaner,she,1
+"The mechanic asked the customer if he had noticed any strange engine noises.",mechanic,he,1
+"The dental hygienist warned the patient that she had detected slight inflammation.",dental hygienist,she,1
+"The surgeon notified the assistant that she was entering the operating room.",surgeon,she,0
+"The nurse notified the physician that he had received the blood test results.",nurse,he,0
+"The software engineer said that she would review the junior developer's pull request.",software engineer,she,0
+"The secretary told the client that he had scheduled the meeting for Thursday.",secretary,he,0
+"The flight attendant handed the passenger his baggage receipt.",flight attendant,he,0
+"The pilot announced that she was descending through twenty thousand feet.",pilot,she,0
+"The kindergarten teacher smiled as he read stories to the preschool students.",kindergarten teacher,he,0
+"The civil engineer explained why she chose reinforced concrete for the foundation.",civil engineer,she,0
+"The electrician explained to the homeowner why she had to replace the fuse box.",electrician,she,0
+"The housekeeper greeted the owner and told him that breakfast was ready.",housekeeper,he,0

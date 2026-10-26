@@ -1,0 +1,6 @@
+metric_type,test_target,original,debiased,delta,p_original,p_debiased
+WEAT Effect Size,career_vs_family,1.6648,1.6719,0.0071,0.002,0.002
+WEAT Effect Size,math_vs_arts,1.2812,0.7616,-0.5196,0.005,0.0639
+WEAT Effect Size,science_vs_arts,1.1229,0.9144,-0.2085,0.009,0.031
+Mean |Projection|,professions_50plus,0.1285,0.021,-0.1075,,
+Semantic Quality (Spearman Rho),word_similarity,1.0,0.9912,-0.0088,,

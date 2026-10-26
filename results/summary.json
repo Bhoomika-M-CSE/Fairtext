@@ -1,0 +1,180 @@
+{
+  "classifiers": {
+    "tensorflow_bilstm": {
+      "accuracy": 0.7143,
+      "precision": 0.7222,
+      "recall": 0.7647,
+      "f1": 0.7429,
+      "confusion_matrix": [
+        [
+          19,
+          10
+        ],
+        [
+          8,
+          26
+        ]
+      ]
+    },
+    "distilbert_pytorch": {
+      "accuracy": 0.6984,
+      "precision": 0.6471,
+      "recall": 0.9706,
+      "f1": 0.7765,
+      "confusion_matrix": [
+        [
+          11,
+          18
+        ],
+        [
+          1,
+          33
+        ]
+      ]
+    }
+  },
+  "benchmarks": {
+    "stereoset": {
+      "benchmark": "StereoSet (Gender)",
+      "model_type": "torch",
+      "sample_count": 8,
+      "stereotype_score_preference_rate": 0.5
+    },
+    "crows_pairs": {
+      "benchmark": "CrowS-Pairs (Gender)",
+      "model_type": "torch",
+      "sample_count": 8,
+      "stereotypical_preference_rate": 0.375
+    }
+  },
+  "debias_audit": [
+    {
+      "metric_type": "WEAT Effect Size",
+      "test_target": "career_vs_family",
+      "original": 1.6648,
+      "debiased": 1.6719,
+      "delta": 0.0071,
+      "p_original": 0.002,
+      "p_debiased": 0.002
+    },
+    {
+      "metric_type": "WEAT Effect Size",
+      "test_target": "math_vs_arts",
+      "original": 1.2812,
+      "debiased": 0.7616,
+      "delta": -0.5196,
+      "p_original": 0.005,
+      "p_debiased": 0.0639
+    },
+    {
+      "metric_type": "WEAT Effect Size",
+      "test_target": "science_vs_arts",
+      "original": 1.1229,
+      "debiased": 0.9144,
+      "delta": -0.2085,
+      "p_original": 0.009,
+      "p_debiased": 0.031
+    },
+    {
+      "metric_type": "Mean |Projection|",
+      "test_target": "professions_50plus",
+      "original": 0.1285,
+      "debiased": 0.021,
+      "delta": -0.1075,
+      "p_original": NaN,
+      "p_debiased": NaN
+    },
+    {
+      "metric_type": "Semantic Quality (Spearman Rho)",
+      "test_target": "word_similarity",
+      "original": 1.0,
+      "debiased": 0.9912,
+      "delta": -0.0088,
+      "p_original": NaN,
+      "p_debiased": NaN
+    }
+  ],
+  "scenario_evaluations": [
+    {
+      "scenario": "job_ad_masculine",
+      "description": "Masculine-coded job advertisement",
+      "text": "We are seeking an aggressive and dominant sales leader who can ruthlessly crush competitors.",
+      "bias_score": 42.57,
+      "is_flagged": true,
+      "classifier_prob": 0.7028,
+      "coded_words": 25.0,
+      "stereotypical_links": 0
+    },
+    {
+      "scenario": "job_ad_neutral",
+      "description": "Inclusive and neutral job advertisement",
+      "text": "We are seeking a collaborative software engineer with experience designing scalable web services.",
+      "bias_score": 23.08,
+      "is_flagged": true,
+      "classifier_prob": 0.5384,
+      "coded_words": 9.62,
+      "stereotypical_links": 0
+    },
+    {
+      "scenario": "headline",
+      "description": "Sensationalized gendered media headline",
+      "text": "Emotional female prime minister faces fierce backlash following controversial budget vote.",
+      "bias_score": 45.6,
+      "is_flagged": true,
+      "classifier_prob": 0.5695,
+      "coded_words": 11.36,
+      "stereotypical_links": 0
+    },
+    {
+      "scenario": "textbook_passage",
+      "description": "Factual scientific textbook excerpt",
+      "text": "Mitochondria generate most of the chemical energy needed to power biochemical reactions in cells.",
+      "bias_score": 12.8,
+      "is_flagged": false,
+      "classifier_prob": 0.5118,
+      "coded_words": 0.0,
+      "stereotypical_links": 0
+    },
+    {
+      "scenario": "neutral_text",
+      "description": "Neutral everyday professional discourse",
+      "text": "The librarian sorted the newly arrived reference books and updated the digital catalog.",
+      "bias_score": 11.98,
+      "is_flagged": false,
+      "classifier_prob": 0.4793,
+      "coded_words": 0.0,
+      "stereotypical_links": 0
+    },
+    {
+      "scenario": "female_surgeon",
+      "description": "Counter-stereotypical female surgeon sentence",
+      "text": "The female surgeon performed the delicate operation with precision and steady focus.",
+      "bias_score": 12.03,
+      "is_flagged": false,
+      "classifier_prob": 0.481,
+      "coded_words": 0.0,
+      "stereotypical_links": 0
+    },
+    {
+      "scenario": "quoted_speech",
+      "description": "Quoted gender-specific speech",
+      "text": "'The chairman insisted on inspecting every policeman's credentials,' the witness testified.",
+      "bias_score": 34.91,
+      "is_flagged": true,
+      "classifier_prob": 0.5966,
+      "coded_words": 0.0,
+      "stereotypical_links": 0
+    },
+    {
+      "scenario": "they_pronoun",
+      "description": "Singular 'they' gender-neutral sentence",
+      "text": "The developer said they would push the feature branch to the repository after unit testing.",
+      "bias_score": 11.58,
+      "is_flagged": false,
+      "classifier_prob": 0.463,
+      "coded_words": 0.0,
+      "stereotypical_links": 0
+    }
+  ],
+  "error_analysis_count": 10
+}

@@ -1,0 +1,105 @@
+text,label,source
+"We are seeking an aggressive and dominant sales leader who can crush quotas.",1,custom_job
+"The successful software engineer will collaborate with cross-functional teams to design scalable APIs.",0,custom_job
+"The doctor finished his rounds while his nurse organized her patient charts.",1,custom_dialogue
+"The surgeon performed the delicate operation with precision and steady focus.",0,custom_dialogue
+"A good mother is naturally nurturing and belongs at home with the children.",1,custom_stereotypes
+"Both parents play important roles in supporting their children's education.",0,custom_stereotypes
+"He was a strong decisive CEO, unlike the emotional women on the committee.",1,custom_news
+"The board of directors appointed a new chief executive after reviewing candidates.",0,custom_news
+"Women are far too sensitive and fragile to handle stressful executive duties.",1,custom_opinion
+"Candidates must possess strong analytical and problem-solving skills under pressure.",0,custom_opinion
+"The chairman demanded that all policemen report to their assigned posts.",1,custom_news
+"The committee chair confirmed that all law enforcement officers were dispatched.",0,custom_news
+"She is quite ambitious for a woman in engineering.",1,custom_dialogue
+"She was recognized for her groundbreaking contributions to mechanical engineering.",0,custom_dialogue
+"Men are naturally better at mathematics and abstract logical thinking than women.",1,custom_stereotypes
+"Proficiency in advanced mathematics is developed through rigorous study and practice.",0,custom_stereotypes
+"The receptionist was polite and charming, just as any young woman in the office should be.",1,custom_dialogue
+"The receptionist greeted arriving guests and scheduled conference room bookings.",0,custom_dialogue
+"He showed typical masculine bravery by charging fearlessly into the burning building.",1,custom_literature
+"The firefighter entered the structure to assist in the evacuation effort.",0,custom_literature
+"Female leaders tend to be catty and indecisive when faced with tough choices.",1,custom_opinion
+"Effective organizational leadership requires strategic thinking and clear communication.",0,custom_opinion
+"The flight attendant adjusted her uniform and offered drinks with a sweet smile.",1,custom_literature
+"The flight attendants reviewed emergency procedures prior to departure.",0,custom_literature
+"Boys are reckless and adventurous while girls should remain gentle and quiet.",1,custom_stereotypes
+"Children benefit from exploring different hobbies and outdoor activities.",0,custom_stereotypes
+"He is a dedicated family man, but she is a mother neglecting her home for a career.",1,custom_news
+"The research scientists balanced demanding project deadlines and personal commitments.",0,custom_news
+"A woman's place in tech should be limited to human resources or design.",1,custom_opinion
+"The software engineering team includes architects, front-end developers, and QA analysts.",0,custom_opinion
+"The electrician quickly inspected his toolkit and fixed the broken transformer.",1,custom_dialogue
+"The certified electrician inspected the circuit breaker and restored power safely.",0,custom_dialogue
+"She speaks with impressive authority for a female scientist.",1,custom_dialogue
+"The lead scientist presented findings on cellular metabolism to the symposium.",0,custom_dialogue
+"Only an aggressive man with ruthless drive can head this investment division.",1,custom_job
+"The investment firm seeks candidates with financial modeling and valuation expertise.",0,custom_job
+"The cleaner spent her morning sweeping the corridors and sanitizing desks.",1,custom_literature
+"The sanitation staff sanitized shared surfaces and replenished supplies daily.",0,custom_literature
+"Women lack the emotional stamina required for high-stakes courtroom litigation.",1,custom_stereotypes
+"The prosecuting attorney presented documentary evidence to substantiate the claim.",0,custom_stereotypes
+"He asserted his dominant masculine authority over the hesitant team members.",1,custom_literature
+"The project manager outlined project deliverables and assigned work packages.",0,custom_literature
+"The schoolteacher cared for her pupils with sweet motherly patience.",1,custom_literature
+"The secondary school teacher prepared lesson plans covering world history.",0,custom_literature
+"She is an emotional female politician who will crumble during international crisis.",1,custom_news
+"The diplomatic envoy participated in multilateral treaty negotiations.",0,custom_news
+"Men are born to lead organizations while women are born to support them.",1,custom_stereotypes
+"Organizational success depends on collaborative teamwork and mutual respect.",0,custom_stereotypes
+"The nurse assisted her doctor patiently and obeyed his every directive.",1,custom_literature
+"The healthcare team, including nurses and physicians, coordinated patient care.",0,custom_literature
+"He acted like an hysterical woman when the market prices plummeted.",1,custom_opinion
+"Market analysts observed significant volatility during late-session trading.",0,custom_opinion
+"She managed to obtain tenure despite the intellectual limitations common in her gender.",1,custom_academic
+"The academic tenure committee reviewed publication records and peer citations.",0,custom_academic
+"A real man does not cry or show vulnerability in front of colleagues.",1,custom_stereotypes
+"Mental wellness programs encourage honest discussions about stress and workload.",0,custom_stereotypes
+"The female programmer surprised everyone by actually writing functional code.",1,custom_dialogue
+"The software development team deployed the patch following automated unit tests.",0,custom_dialogue
+"A woman cannot handle the brutal physical labor demanded of construction workers.",1,custom_stereotypes
+"Construction personnel must follow occupational health and safety regulations on site.",0,custom_stereotypes
+"The secretary brought coffee to her boss and listened obediently to his speech.",1,custom_literature
+"The administrative assistant managed scheduling calendars and archived correspondence.",0,custom_literature
+"Men are driven by objective logic whereas women are clouded by subjective feelings.",1,custom_stereotypes
+"Cognitive psychology investigates decision-making heuristics and cognitive biases.",0,custom_stereotypes
+"The mechanic wiped grease from his forehead and started repairing the truck engine.",1,custom_dialogue
+"The automotive technician diagnosed the transmission failure using diagnostic scan tools.",0,custom_dialogue
+"Her feminine intuition is no substitute for rigorous quantitative analysis.",1,custom_dialogue
+"Quantitative modeling relies on empirical statistical evidence and validation.",0,custom_dialogue
+"He showed ruthless masculine prowess in cutting company costs and firing workers.",1,custom_news
+"The restructuring plan reduced operational overhead across international branches.",0,custom_news
+"She was promoted solely to satisfy political correctness and gender quotas.",1,custom_opinion
+"The evaluation process followed standardized merit-based assessment criteria.",0,custom_opinion
+"A father cannot nurture an infant with the biological warmth of a mother.",1,custom_stereotypes
+"Parental leave policies enable parents to care for newborns during early development.",0,custom_stereotypes
+"The dental hygienist smiled prettily as she cleaned the patient's teeth.",1,custom_literature
+"The dental hygienist completed the routine periodontal cleaning and recorded measurements.",0,custom_literature
+"Women in executive leadership are usually bossy, abrasive, and difficult to work with.",1,custom_opinion
+"Leadership evaluations assess strategic alignment, delegation, and coaching effectiveness.",0,custom_opinion
+"The police officer secured the perimeter and waited for backup to arrive.",0,custom_news
+"The astrophysicist published observations from the space telescope survey.",0,custom_academic
+"The database administrator restored the damaged tables from an encrypted backup.",0,custom_tech
+"The civil engineering firm completed the structural survey of the suspension bridge.",0,custom_tech
+"The laboratory technician calibrated the spectrometer before running the assays.",0,custom_academic
+"The high school principal welcomed students and faculty at the beginning of term.",0,custom_news
+"The graphic designer submitted draft concepts for the brand identity refresh.",0,custom_job
+"The accounting department published the audited annual financial statements.",0,custom_news
+"The flight departed on schedule despite adverse weather conditions in the region.",0,custom_news
+"The university senate approved the revised undergraduate curriculum guidelines.",0,custom_academic
+"The ambulance driver followed the mapped emergency corridor to the hospital.",0,custom_dialogue
+"The pharmacist explained dosage instructions and potential interactions to the patient.",0,custom_dialogue
+"The research fellow synthesized organic compounds for testing against target enzymes.",0,custom_academic
+"The technical writer documented installation steps and API endpoints in the manual.",0,custom_tech
+"The urban planner presented demographic trends to the municipal council.",0,custom_news
+"The librarian cataloged new archival acquisitions and digital manuscripts.",0,custom_academic
+"The veterinary surgeon treated the injured golden retriever with antibiotics.",0,custom_dialogue
+"The environmental scientist collected water samples along the river estuary.",0,custom_academic
+"The logistics manager coordinated freight shipments across national rail networks.",0,custom_job
+"The robotics engineer programmed inverse kinematics for the robotic arm.",0,custom_tech
+"The certified public accountant audited corporate expense declarations for compliance.",0,custom_job
+"The software architect specified microservice protocols using gRPC and protobuf.",0,custom_tech
+"The weather forecaster analyzed satellite imagery and atmospheric pressure fronts.",0,custom_news
+"The orchestra conductor led rehearsals for the upcoming symphony performance.",0,custom_dialogue
+"The archaeologist excavated pottery fragments dating to the bronze age settlement.",0,custom_academic
+"The clinical psychologist conducted structured interviews for the longitudinal study.",0,custom_academic

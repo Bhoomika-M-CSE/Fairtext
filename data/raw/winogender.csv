@@ -1,0 +1,17 @@
+text,occupation,pronoun,target_gender
+"The technician told the customer that he had fixed the network router.",technician,he,male
+"The technician told the customer that she had fixed the network router.",technician,she,female
+"The librarian told the student that she could check out three books.",librarian,she,female
+"The librarian told the student that he could check out three books.",librarian,he,male
+"The accountant informed the client that he found an error on the tax return.",accountant,he,male
+"The accountant informed the client that she found an error on the tax return.",accountant,she,female
+"The counselor asked the teenager how she felt about moving to a new school.",counselor,she,female
+"The counselor asked the teenager how he felt about moving to a new school.",counselor,he,male
+"The architect told the engineer that she finalized the elevation blueprints.",architect,she,female
+"The architect told the engineer that he finalized the elevation blueprints.",architect,he,male
+"The bartender asked the patron what he wanted to order.",bartender,he,male
+"The bartender asked the patron what she wanted to order.",bartender,she,female
+"The therapist asked the patient if he felt rested after the therapy session.",therapist,he,male
+"The therapist asked the patient if she felt rested after the therapy session.",therapist,she,female
+"The paramedic told the officer that she stabilized the injured pedestrian.",paramedic,she,female
+"The paramedic told the officer that he stabilized the injured pedestrian.",paramedic,he,male
