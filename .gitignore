@@ -1,0 +1,15 @@
+# Large trained models
+models/distilbert_fairtext/model.safetensors
+models/glove_debiased.kv.vectors.npy
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment and secrets
+.env
+.venv/
+venv/
+
+# Generated outputs
